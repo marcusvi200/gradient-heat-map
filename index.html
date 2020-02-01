@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="jumbotron">
+            <h2>Gradient Heat Map</h2>
+            
+            <div class="panel panel-primary">
+                <div class="panel-heading"><span class="glyphicon glyphicon-cog"></span> Settings</div>
+              
+                <table class="table">
+                    <tr>
+                        <td>1st color:</td>
+                        <td><input type="color" value="#008000"></td>
+                        <td>&nbsp;</td>
+                        <td>2nd color:</td>
+                        <td><input type="color" value="#ffff00"></td>
+                        <td>&nbsp;</td>
+                        <td>3rd color:</td>
+                        <td><input type="color" value="#ff0000"></td>
+                        <td>&nbsp;</td>
+                        <td>Position:</td>
+                        <td><select name="types"></select></td>
+                    </tr>
+                    <th colspan="11">
+                        <div class="bar-color"></div>
+                    </th>
+                    <tr>
+                        <td width="180px">
+                            <h6>Select the desired percentage</h6>
+                        </td>                    
+                        <td colspan="9">
+                            <input type="range" min="0" max="100" step="1" value="50">
+                        </td>
+                        <td width="1px">
+                            <span class="label label-danger"><span class="percentage">50</span>%</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5><span class="glyphicon glyphicon-console"></span> Script</h5>
+                        </td>                    
+                        <td colspan="10">
+                            <input type="text" name="code" readonly/>
+                        </td>
+                    </tr valign="middle">
+                </table>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="script/GradientHeatMap.js" target="_blank"><span class="glyphicon glyphicon-download-alt"></span> Download JS</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script/GradientHeatMap.js"></script>    
+    <script src="script/script.js"></script>
+    
+</body>
+</html>

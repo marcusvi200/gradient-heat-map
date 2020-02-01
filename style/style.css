@@ -1,0 +1,28 @@
+.container{
+    margin-top: 50px;
+}
+
+.percentage{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}        
+
+.bar-color{
+    word-spacing: 10pt;
+    height: 18pt;
+    max-width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    font-weight: bolder;
+}
+
+input[type=text]{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    width: 100%;
+}
