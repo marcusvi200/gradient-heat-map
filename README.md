@@ -6,6 +6,10 @@
 --- | --- | --- | --- | --- |
 Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
 
+## Example
+
+[See an simple example!](https://marcusvi200.github.io/gradient-heat-map/)
+
 ## How to use
 
 ### Instantiating a GradientHeatMap
